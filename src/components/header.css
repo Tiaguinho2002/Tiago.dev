@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+}
+
+
+.Header {
+    display: grid;
+    grid-template-columns: 10rem 40rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.name {
+    font-size: 1.6rem;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items a {
+    font-size: 1.1rem;
+    color: #41adff;;
+    text-decoration: none;
+}
+
+.nav-items{
+    display: flex;
+    margin: 2rem  ;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+
+}
