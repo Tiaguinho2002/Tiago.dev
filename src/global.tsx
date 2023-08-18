@@ -15,7 +15,7 @@ import Contact from './pages/contact.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-<Router basename='/tiago.dev'>
+<Router basename='/Tiago.dev'>
 <React.StrictMode>
     <Header></Header>
     <Routes>
